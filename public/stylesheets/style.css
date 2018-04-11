@@ -1,8 +1,35 @@
 body {
-  padding: 50px;
+  margin: 0;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Cherry Cream Soda', cursive;
+  font-size: 120px;
+  color: #FFFFFF;
+  text-align: center;
 }
 
 a {
   color: #00B7FF;
+}
+
+.pages {
+  height: 100vh;
+}
+
+.dark-grey {
+  background-color: #282828;
+}
+
+.light-grey {
+  background-color: #FFFFFF;
+}
+
+#assets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
